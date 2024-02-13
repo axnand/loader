@@ -249,7 +249,7 @@ padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 25px 20px 22px;
+    padding: 10px 15px 10px 12px;
     box-shadow: rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     background-color: #e8e8e8;
     border-color: #ffe2e2;
@@ -263,7 +263,7 @@ padding: 0;
     transition: transform 400ms cubic-bezier(.68,-0.55,.27,2.5), 
     border-color 400ms ease-in-out,
     background-color 400ms ease-in-out;
-    word-spacing: -2px;
+    word-spacing: -4px;
   }
   
   @keyframes movingBorders {
@@ -328,4 +328,8 @@ padding: 0;
   button:hover .filled {
     opacity: 1;
     animation: beatingHeart 1.2s infinite;
+  }
+
+  button{
+    font-size: 15px;
   }
