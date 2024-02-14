@@ -165,10 +165,15 @@
   z-index: 0;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 900px) {
   #button-79 {
     padding: 19px 32px;
   }
+  .gif{
+    width: 170px;
+  
+  }
+
 }
 
 #button-79:before,
@@ -249,8 +254,8 @@
     <button id="button-79" onclick="window.open('bat.html','_blank')">Click here to continue</button>
     <h1> Remember this?!</h1>
     <h2>We're back to where we started and this time it's not the same lame timer as prev, let's see what happens</h2>
-    <img src="batman.gif">
-    <img src="hello-kitty.gif">
+    <img class="gif" src="batman.gif">
+    <img class="gif" src="hello-kitty.gif">
     <script>
         
         let targetTime = localStorage.getItem("targetTime");
